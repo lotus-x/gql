@@ -21,11 +21,11 @@ class MessageTypes {
   static const String connectionKeepAlive = "ka";
 
   // client operations
-  static const String start = "start";
-  static const String stop = "stop";
+  static const String start = "subscribe";
+  static const String stop = "complete";
 
   // server operations
-  static const String data = "data";
+  static const String data = "next";
   static const String error = "error";
   static const String complete = "complete";
 
